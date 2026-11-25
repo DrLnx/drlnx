@@ -1,24 +1,31 @@
 <div align="center">
 
-<img src="./assets/header.svg" width="100%" alt="Dr.Lnx — Leon, Developer at N3XT Agency"/>
-
-<a href="https://n3xt-agency.com">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=1D9470&center=true&vCenter=true&width=640&lines=Discord+systems+%C2%B7+Automation+%C2%B7+Internal+tooling;Private+platforms+for+communities;One+codebase.+One+dataset.+One+instance.;If+it+runs+twice%2C+it+runs+on+a+cron." alt="Typing intro"/>
-</a>
+<img src="./assets/profile/header.svg" width="100%" alt="Leon — Dr.Lnx, Developer at N3XT Agency"/>
 
 <br><br>
 
-[![Website](https://img.shields.io/badge/Website-n3xt--agency.com-1D9470?style=for-the-badge&logo=googlechrome&logoColor=white)](https://n3xt-agency.com)
-[![Contact](https://img.shields.io/badge/Contact-leon.holetz@n3xt--agency.com-0d1117?style=for-the-badge&logo=maildotru&logoColor=1D9470&labelColor=1D9470)](mailto:leon.holetz@n3xt-agency.com)
-[![Profile views](https://komarev.com/ghpvc/?username=n3xtpy&style=for-the-badge&color=1D9470&label=VIEWS)](https://github.com/n3xtpy)
+<img src="./assets/profile/typing.svg" width="620" alt="Discord systems · Automation · Internal tooling"/>
 
-**[Overview](#-overview)** · **[Work](#-work)** · **[Stack](#-stack)** · **[How I build](#-how-i-build)** · **[Contact](#-contact)**
+<br><br>
+
+<a href="https://n3xt-agency.com"><img src="./assets/profile/btn-website.svg" height="46" alt="Website: n3xt-agency.com"/></a>
+&nbsp;
+<a href="mailto:leon.holetz@n3xt-agency.com"><img src="./assets/profile/btn-contact.svg" height="46" alt="Contact: leon.holetz@n3xt-agency.com"/></a>
+
+<br><br>
+
+<a href="#overview"><img src="./assets/profile/nav-overview.svg" height="34" alt="Overview"/></a>
+<a href="#work"><img src="./assets/profile/nav-work.svg" height="34" alt="Work"/></a>
+<a href="#stack"><img src="./assets/profile/nav-stack.svg" height="34" alt="Stack"/></a>
+<a href="#how-i-build"><img src="./assets/profile/nav-how-i-build.svg" height="34" alt="How I build"/></a>
+<a href="#contact"><img src="./assets/profile/nav-contact.svg" height="34" alt="Contact"/></a>
 
 </div>
 
-<img src="./assets/divider.svg" width="100%" height="12" alt=""/>
+<br>
 
-## ◆ Overview
+<a name="overview"></a>
+<img src="./assets/profile/h-overview.svg" width="100%" alt="01 — Overview"/>
 
 I work on systems that a community actually runs on — support, moderation, recruitment,
 engagement — rather than one-off scripts bolted onto someone else's bot. The through-line
@@ -30,6 +37,7 @@ cron; if a decision is a setting, it should not be a rebuild.*
 
 ```ts
 const leon = {
+  handle:   "Dr.Lnx",
   role:     "Developer @ N3XT Agency",
   building: "N3XT.sys — a complete Discord server operating system",
   focus:    ["bot platforms", "automation", "developer tooling"],
@@ -37,16 +45,17 @@ const leon = {
 } as const;
 ```
 
-<img src="./assets/divider.svg" width="100%" height="12" alt=""/>
+<br>
 
-## ◆ Work
+<a name="work"></a>
+<img src="./assets/profile/h-work.svg" width="100%" alt="02 — Work"/>
 
 ### [N3XT.sys](https://github.com/n3xtpy/N3XT.sys) — Discord server operating system
 
 > *One bot, one dedicated instance per community, replacing the usual stack of five or six.*
 
 <div align="center">
-  <a href="https://github.com/n3xtpy/N3XT.sys"><img src="./assets/terminal.svg" width="88%" alt="N3XT.sys boot sequence"/></a>
+  <a href="https://github.com/n3xtpy/N3XT.sys"><img src="./assets/profile/terminal.svg" width="88%" alt="N3XT.sys boot sequence"/></a>
 </div>
 
 <br>
@@ -63,9 +72,10 @@ in the same place.
 | ✅ **Quality** | Typecheck, lint and tests on every push |
 | 🔒 **Deployment** | Dedicated instance per server, hard-locked to that guild |
 
-<img src="./assets/divider.svg" width="100%" height="12" alt=""/>
+<br>
 
-## ◆ Stack
+<a name="stack"></a>
+<img src="./assets/profile/h-stack.svg" width="100%" alt="03 — Stack"/>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=ts,js,py,nodejs,react,discord,sqlite,githubactions,bash,linux&perline=10&theme=dark" alt="Tech stack"/>
@@ -81,9 +91,10 @@ in the same place.
 | **Automation** | GitHub Actions · cron · shell |
 | **Quality** | ESLint · Vitest · `tsc --noEmit` |
 
-<img src="./assets/divider.svg" width="100%" height="12" alt=""/>
+<br>
 
-## ◆ How I build
+<a name="how-i-build"></a>
+<img src="./assets/profile/h-how-i-build.svg" width="100%" alt="04 — How I build"/>
 
 <table>
 <tr>
@@ -126,15 +137,16 @@ cannot catch, so the boring ones should never reach a review.
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/n3xtpy/n3xtpy/output/snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/n3xtpy/n3xtpy/output/snake-light.svg"/>
-    <img src="https://raw.githubusercontent.com/n3xtpy/n3xtpy/output/snake-dark.svg" width="100%" alt="Contribution snake"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/drlnx/drlnx/output/snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/drlnx/drlnx/output/snake-light.svg"/>
+    <img src="https://raw.githubusercontent.com/drlnx/drlnx/output/snake-dark.svg" width="100%" alt="Contribution snake"/>
   </picture>
 </div>
 
-<img src="./assets/divider.svg" width="100%" height="12" alt=""/>
+<br>
 
-## ◆ Contact
+<a name="contact"></a>
+<img src="./assets/profile/h-contact.svg" width="100%" alt="05 — Contact"/>
 
 Work enquiries, custom systems, or a scoping call for a deployment — either channel reaches
 me directly.
@@ -142,13 +154,12 @@ me directly.
 <div align="center">
 <br>
 
-[![Get in touch](https://img.shields.io/badge/Get_in_touch-leon.holetz@n3xt--agency.com-1D9470?style=for-the-badge&logo=gmail&logoColor=white)](mailto:leon.holetz@n3xt-agency.com)
-[![Visit website](https://img.shields.io/badge/Visit-n3xt--agency.com-24292F?style=for-the-badge&logo=googlechrome&logoColor=white)](https://n3xt-agency.com)
+<a href="mailto:leon.holetz@n3xt-agency.com"><img src="./assets/profile/btn-contact.svg" height="46" alt="Contact: leon.holetz@n3xt-agency.com"/></a>
+&nbsp;
+<a href="https://n3xt-agency.com"><img src="./assets/profile/btn-website.svg" height="46" alt="Website: n3xt-agency.com"/></a>
 
-<br>
+<br><br>
 
-<sub><b>N3XT Agency</b> · <a href="https://n3xt-agency.com">n3xt-agency.com</a> · <a href="mailto:leon.holetz@n3xt-agency.com">leon.holetz@n3xt-agency.com</a></sub>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1D9470,100:2dd4bf&height=110&section=footer" width="100%" alt=""/>
+<img src="./assets/profile/footer.svg" width="100%" alt=""/>
 
 </div>
