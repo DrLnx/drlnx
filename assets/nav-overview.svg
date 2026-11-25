@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 137 40" width="137" height="40" role="img" aria-label="Overview">
+  <defs><style>
+      .mono{font-family:'JetBrains Mono',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace} .sans{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif}
+      @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+      @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+      @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+      @keyframes draw{to{stroke-dashoffset:0}}
+      @keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(60px,-12px)}}
+      .cur{animation:blink 1s step-end infinite}
+      .dot{animation:pulse 2s ease-in-out infinite}
+      .drift{animation:drift 12s ease-in-out infinite}
+      @keyframes glow{0%,100%{stroke-opacity:.35}50%{stroke-opacity:.9}}
+      .b{animation:glow 3s ease-in-out 0.4s infinite}
+  </style></defs>
+  <rect class="b" x=".75" y=".75" width="135.5" height="38.5" rx="19.25" fill="#0d1117" stroke="#1D9470" stroke-width="1.5"/>
+  <text x="18" y="25" class="mono" font-size="12" fill="#1D9470">01</text>
+  <text x="44" y="25.5" class="mono" font-size="14" font-weight="600" fill="#e6edf3" textLength="67.2" lengthAdjust="spacingAndGlyphs">Overview</text>
+</svg>

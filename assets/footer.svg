@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" preserveAspectRatio="none" role="img" aria-label="N3XT Agency">
+  <defs><linearGradient id="f" x1="0" x2="1"><stop offset="0" stop-color="#0d1117"/><stop offset=".5" stop-color="#1D9470"/><stop offset="1" stop-color="#2dd4bf"/></linearGradient>
+  <style>
+    @keyframes wv{from{transform:translateX(0)}to{transform:translateX(-600px)}}
+    .a{animation:wv 9s linear infinite} .b{animation:wv 14s linear infinite}
+  </style></defs>
+  <path class="b" opacity=".35" fill="url(#f)" d="M0 70 Q150 30 300 70 T600 70 T900 70 T1200 70 T1500 70 T1800 70 V120 H0Z"/>
+  <path class="a" fill="url(#f)" d="M0 85 Q150 55 300 85 T600 85 T900 85 T1200 85 T1500 85 T1800 85 V120 H0Z"/>
+</svg>

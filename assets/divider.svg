@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 12" width="1200" height="12" preserveAspectRatio="none">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#1D9470" stop-opacity="0"/><stop offset=".5" stop-color="#2dd4bf"/><stop offset="1" stop-color="#1D9470" stop-opacity="0"/></linearGradient>
+  <style>@keyframes s{from{transform:translateX(-400px)}to{transform:translateX(1200px)}}.s{animation:s 3.5s cubic-bezier(.6,0,.4,1) infinite}</style></defs>
+  <rect y="5" width="1200" height="2" rx="1" fill="#1D9470" fill-opacity=".22"/>
+  <rect class="s" y="4" width="400" height="4" rx="2" fill="url(#g)"/>
+</svg>
